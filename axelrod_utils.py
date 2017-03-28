@@ -77,6 +77,7 @@ def do_table(table):
     """
     fac = lambda: axelrod.LookerUp(lookup_table=table)
     return(score_for(fac), table)
+    print ('alex is awesome')
 
 
 def score_tables(tables, pool):
